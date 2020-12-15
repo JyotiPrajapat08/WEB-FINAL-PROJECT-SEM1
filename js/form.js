@@ -47,6 +47,11 @@ function validForm() {
     return false;
   }
 
+  else if (address == "") {
+    alert("Please enter the address!");
+    return false;
+  }
+
   return true;
 }
 
